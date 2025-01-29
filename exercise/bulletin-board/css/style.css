@@ -1,0 +1,63 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    display: inline-block;
+    margin: 24px; 
+    padding: 24px;
+    width: 250px;
+    height: 250px;
+    font-family:
+        'Lucida Sans', 
+        'Lucida Sans Regular', 
+        'Lucida Grande', 
+        'Lucida Sans Unicode', 
+        Geneva, 
+        Verdana, 
+        sans-serif;
+    text-align: center;
+}
+.post-it1 {
+    padding: 75px 25px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: palegoldenrod;
+    box-shadow: 4px 4px 4px 4px #00000033;
+    margin-top: -35px;
+}
+div img {
+    width: 250px;
+    margin-top: 24px;
+    border: 10px solid white;
+    box-shadow: 4px 4px 4px 4px #00000033;
+}
+.post-it3 {
+    padding: 75px 25px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: palegreen;
+    box-shadow: 4px 4px 4px 4px #00000033;
+    margin-top: -35px;
+}
+
+.post-it5 {
+    padding: 75px 25px;
+    font-weight: bolder;
+    background-color: paleturquoise;
+    box-shadow: 4px 4px 4px 4px #00000033;
+    margin-top: -35px;
+}
+.post-it div {
+    border: 3px solid blueviolet;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    display: inline-block;
+    border-style: groove;
+}
