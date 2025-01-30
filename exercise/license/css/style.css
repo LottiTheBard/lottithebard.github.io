@@ -45,6 +45,7 @@
 }
 #right-side img {
     width: 100%;
+    margin-bottom: 20px;
 }
 #donor,
 #real-id {
@@ -62,13 +63,11 @@ div h4 {
     color: white;
     padding: 10px;
     font-family: sans-serif;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 #id-and-expiration {
     margin-bottom: 15px;
     margin-left: 15px;
-}
-#id-and-expiration {
     color: darkblue;
 }
 #id-and-expiration span {
@@ -95,6 +94,15 @@ div h4 {
     margin-left: 10px;
     color: darkblue;
 }
-#date-right span {
+#data-right span {
     color: red;
+}
+#donor {
+    color: red;
+}
+#real-id {
+    color: white;
+    border: 3px solid gold;
+    border-radius: 50%;
+    background-color: gold;
 }
