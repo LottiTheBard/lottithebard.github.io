@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.center-align {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #547944;
+    text-align: center;
+    border-radius: 1.40%;
+}
+.product-1 {
+    border: 3px solid #37502d;
+    border-radius: 2% 2% 0% 0%;
+}
+.center-align h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.center-align p {
+    font-family: 
+        system-ui, 
+        -apple-system, 
+        BlinkMacSystemFont, 
+        'Segoe UI', 
+        Roboto, 
+        Oxygen, 
+        Ubuntu, 
+        Cantarell, 
+        'Open Sans', 
+        'Helvetica Neue', 
+        sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.center-align img {
+    border: 3px solid #37502d;
+    border-radius: 2%;
+    width:60%;
+}
+.product-2 {
+    border: 3px solid #37502d;
+}
+.product-3 {
+    border: 3px solid #37502d;
+    border-radius: 0% 0% 2% 2%;
+}
