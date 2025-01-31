@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#two-columns {
+    display: flex;
+}
+#sidebar {
+    width: 250px;
+    padding: 24px;
+    margin-top: 93px;
+
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+#sidebar ul a {
+    text-decoration: none;
+}
+#sidebar h4 {
+    margin-bottom: 0px;
+}
+#main-content {
+    padding: 48px;
+}
+#wiki {
+    font-size: smaller;
+}
+.aussie-img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.img-border {
+    display: inline-block;
+    margin: 5px;
+    background-color: whitesmoke;
+    width: 200px;
+    border: 1px solid lightgray;
+}
+#photo-column img {
+    width: 200px;
+}
+#photo-column div {
+    margin-top: 200px;
+    text-align: center;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+}
+#photo-column div h4 {
+    background-color: darkkhaki;
+}
+.aussie-img-2 {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
