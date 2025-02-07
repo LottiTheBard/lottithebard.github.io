@@ -23,6 +23,7 @@
 }
 .card-style-1 p {
     padding: 24px;
+    margin: -10px;
 }
 .card-style-1 a {
     background-color: #008000;
