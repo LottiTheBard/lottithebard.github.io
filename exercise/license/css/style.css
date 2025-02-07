@@ -12,6 +12,7 @@
     border-radius: 12px;
     background: linear-gradient(70deg, #F5CE7A, #F4A123);
     margin: 150px;
+    max-width: 700px;
 }
 #left-side {
     display: inline-block;
