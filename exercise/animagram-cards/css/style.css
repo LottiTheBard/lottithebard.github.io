@@ -34,7 +34,8 @@
 }
 .card-style-2 p {
     text-align: center;
-    padding: 25px;
+    display: inline-block;
+    margin-bottom: 30px
 }
 .animagram-footer {
     font-size: 21px;
