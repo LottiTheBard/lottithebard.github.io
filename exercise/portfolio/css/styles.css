@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.bungee-hairline-regular {
+    font-family: "Bungee Hairline", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 24px;
+}
+#hero {
+    background-image: url(../images/hi-res/urban-hi-res-2nse.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero h1 {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 34px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+#call-to-action {
+    position: absolute;
+    background-color: #363636;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    top: 45%;
+    left: 7%;
+    box-shadow: 4px 8px 8px #111111ce;
+    transition: box-shadow .5s;
+    color: whitesmoke;
+}
+#call-to-action a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#call-to-action:hover {
+    box-shadow: inset 0px 0px 8px 4px #111111ce;
+}
+#layout {
+    max-width: 1000px;
+    margin: 24px auto;
+    text-align: center;
+}
+#header {
+    font-weight: bolder;
+    color: black;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    gap: 24px;
+}
+#gallery img {
+    width: 100%;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+.card img {
+    width: 100%
+}
+.card-layout {
+    flex: 1;
+    padding: 24px;
+    text-align: center;
+    margin: 24px;
+    border: 2px solid #111111ce;
+}
+.card-layout h3 {
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.card-button {
+    background-color: #111111ce;
+    padding: 10px;
+    margin-top: 24px;
+    box-shadow: 4px 8px 8px #111111ce;
+}
+.card-button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.card-button:hover {
+    box-shadow: inset 0px 0px 8px 4px #111111ce;
+}
