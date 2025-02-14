@@ -87,7 +87,7 @@ body {
     position: relative;
     justify-content: center;
 }
-#hero-3 h1{
+#hero-3 h1 {
     font-size: 36px;
     font-family: fantasy;
     position: absolute;
@@ -98,7 +98,7 @@ body {
     font-size: 24px;
     font-family: fantasy;
     position: absolute;
-    top:35%;
+    top: 35%;
     left: 40%;
 }
 #hero-3 a {
