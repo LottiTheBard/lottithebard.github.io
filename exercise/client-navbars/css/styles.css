@@ -68,3 +68,19 @@ body {
     font-weight: bold;
     color: rgb(20, 90, 146);
 }
+#top-level {
+    background-color: black;
+    color: #85e21f;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+#navbar-3 {
+    background-color: #881eef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar-3 #logo-3 {
+    text-decoration: none;
+}
