@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ribeye-marrow-regular {
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#navbar-1 {
+    background: linear-gradient(to bottom, #a79385, #cea48c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar-1 #logo-1 {
+    margin-right: auto;
+    text-decoration: none;
+    color: #5f2312;
+    padding: 24px;
+    font-size: 20px;
+}
+#navbar-1 a {
+    text-decoration: none;
+    padding: 24px;
+    font-size: 22px;
+    color: #3c4423;
+}
+#navbar-2 {
+    background: linear-gradient(to bottom, #ffb300, #ff9a00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar-2 #logo-2 {
+    text-decoration: none;
+    color: rgb(20, 90, 146);
+    margin-right: auto;
+    padding: 30px;
+}
+#navbar-2 a {
+    text-decoration: none;
+    color: rgb(20, 90, 146);
+    padding: 24px;
+    font-size: 18px;
+}
+#navbar-2 #cta-button-1 {
+    background-color: #ff6f61;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 4px 8px #b8382c9f;
+    display: flex;
+}
+#navbar-2 #cta-button-1 span {
+    font-size: 18px;
+    padding: 12px;
+    font-weight: bold;
+    color: rgb(20, 90, 146);
+}
