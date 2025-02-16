@@ -56,24 +56,27 @@ body {
     font-size: 18px;
 }
 #navbar-2 #cta-button-1 {
-    background-color: #ff6f61;
+    background-color: lightskyblue;
     text-decoration: none;
     border-radius: 50px;
-    box-shadow: 4px 8px #b8382c9f;
+    box-shadow: 4px 8px blue;
     display: flex;
 }
 #navbar-2 #cta-button-1 span {
     font-size: 18px;
     padding: 12px;
     font-weight: bold;
-    color: rgb(20, 90, 146);
+    color: #000000;
 }
 #top-level {
     background-color: black;
-    color: #85e21f;
     padding: 5px;
     display: flex;
     justify-content: center;
+}
+#top-level a {
+    text-decoration: none;
+    color: #85e21f;
 }
 #navbar-3 {
     background-color: #881eef;
@@ -83,4 +86,34 @@ body {
 }
 #navbar-3 #logo-3 {
     text-decoration: none;
+    margin-right: auto;
+    color: black;
+}
+#navbar-3 a {
+    text-decoration: none;
+    padding: 24px;
+    color: black;
+}
+#navbar-3 #cta-button-2 {
+    background-color: #ff9a00;
+    padding: 24px;
+    border-radius: 25px;
+    box-shadow: #f75f1c 4px 2px 4px;
+    margin: 24px;
+}
+#navbar-3 #cta-button-2 a span {
+    font-size: 20px;
+    font-weight: bold;
+}
+#bottom-level {
+    background-color: #ff9a00;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottom-level a {
+    text-decoration: none;
+    padding: 12px;
+    color: black;
 }
