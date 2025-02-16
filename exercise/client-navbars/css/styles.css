@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
 * {
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
 body {
     margin: 0px;
     font-family: sans-serif;
