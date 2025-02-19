@@ -99,4 +99,7 @@ body {
     .content-container {
         text-align: center;
     }
+    .image-container img {
+        height: 250px;
+    }
 }
