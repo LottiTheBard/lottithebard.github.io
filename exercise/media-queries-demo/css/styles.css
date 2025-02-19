@@ -119,10 +119,6 @@ body {
 
 /*Tablet Breakpoint*/
 @media screen and (max-width: 750px) and (min-width: 450px) {
-    body {
-        background-color: skyblue;
-    }
-
     .content-container h1 {
         font-size: 28px;
     }
@@ -145,10 +141,6 @@ body {
 }
 /* Mobile Breakpoint */
 @media screen and (max-width: 450px) {
-    body {
-        background-color: firebrick;
-    }
-
     .nav {
         flex-direction: column;
         align-items: center;
