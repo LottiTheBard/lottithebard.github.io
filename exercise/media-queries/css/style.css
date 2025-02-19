@@ -213,10 +213,6 @@ a {
 /* TODO: Add your media query code here */
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: skyblue;
-    }
-
     #nav {
         padding: 25px;
         flex-direction: column;
