@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #8b6edb4f;
+}
+
+.leckerli-one-regular {
+    font-family: "Leckerli One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+#navbar img {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 12px;
+    color: #4846DB;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode', 
+    Geneva, 
+    Verdana, 
+    sans-serif;
+}
+
+#navbar h2 {
+    color: #5200DB;
+    margin: 0px auto;
+}
+
+#hero {
+    background-image: url(../images/103_MattePaintingProjectFinal_6024_AStringer.jpg);
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero #hero-header {
+    position: absolute;
+    color: #5200DB;
+    background-color: rgba(128, 128, 128, 0.651);
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.623);
+    top: 150px;
+    border-radius: 20px;
+    left: 500px;
+}
+
+#hero .cta {
+    position: absolute;
+    top: 500px;
+    color: #5200DB;
+    border: 3px solid #a387d3;
+    border-radius: 20px;
+    background-color: #a387d3;
+    box-shadow: 4px 4px 8px #362d46fd;
+    padding: 12px;
+    left: 793px;
+}
+.cta a {
+    font-weight: bold;
+    text-decoration: none;
+}
