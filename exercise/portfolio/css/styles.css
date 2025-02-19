@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
 * {
     box-sizing: border-box;
@@ -7,6 +8,14 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+.league-gothic {
+    font-family: "League Gothic", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 .bungee-hairline-regular {
     font-family: "Bungee Hairline", serif;
     font-weight: 400;
@@ -35,11 +44,13 @@ body {
 }
 #hero h1 {
     color: whitesmoke;
-    font-weight: bolder;
-    font-size: 34px;
+    font-size: 30px;
     position: absolute;
     top: 35%;
-    left: 5%;
+    left: 7%;
+    font-weight: bolder;
+    background: rgba(0, 0, 0, 0.479);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.486)
 }
 #call-to-action {
     position: absolute;
@@ -99,9 +110,9 @@ body {
 }
 .card-button {
     background-color: #111111ce;
-    padding: 10px;
+    padding: 15px;
     margin-top: 24px;
-    box-shadow: 4px 8px 8px #111111ce;
+    box-shadow: 8px 8px 12px #111111ce;
 }
 .card-button a {
     text-decoration: none;
