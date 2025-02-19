@@ -54,6 +54,7 @@ body {
     color: rgb(20, 90, 146);
     padding: 24px;
     font-size: 18px;
+    font-weight: bold;
 }
 #navbar-2 #cta-button-1 {
     background-color: lightskyblue;
@@ -93,6 +94,7 @@ body {
     text-decoration: none;
     padding: 24px;
     color: black;
+    font-weight: bold;
 }
 #navbar-3 #cta-button-2 {
     background-color: #ff9a00;
@@ -116,4 +118,5 @@ body {
     text-decoration: none;
     padding: 12px;
     color: black;
+    font-weight: bold;
 }
