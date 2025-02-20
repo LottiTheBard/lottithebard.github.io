@@ -460,7 +460,7 @@ body {
     }
 
     #nav a {
-        width: 25%;
+        flex: 198px;
     }
 
     #header h1 {
