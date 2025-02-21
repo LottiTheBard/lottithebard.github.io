@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#gallery-1 {
+    display: flex;
+}
+
+.cards-1 {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 12px;
+    background-color: palevioletred;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.cards-1 a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: lightpink;
+    box-shadow: 4px 4px 4px black;
+}
+
+.cards-1:hover {
+    background-color: rgb(255, 130, 149);
+    box-shadow: 4px 4px 4px rgb(41, 41, 41);
+    transform: translateY(-4px);
+}
+
+h1 {
+    text-align: center;
+}
+
+#gallery-2 {
+    display: flex;
+}
+
+.cards-2 {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 12px;
+    background-color: lightblue;
+    box-shadow: 4px 4px 4px rgb(41, 41, 41);
+    transform: translateY(-8px);
+    transition: 
+    visibility 0.5s,
+    opacity 0.5s,
+    transform 0.5s;
+}
+
+.gallery-content {
+    text-align: center;
+}
+
+.cards-2 a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: paleturquoise;
+    box-shadow: 4px 4px 4px black;
+    transition: visibility 0.5s;
+}
+
+.card-2:hover a {
+    visibility: hidden;
+}
+
+.cards-2:hover  {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(0px);
+}
+
+#gallery-3 {
+    display: flex;
+}
+.cards-3 {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 12px;
+    background-color: rgb(114, 199, 114);
+    box-shadow: 4px 4px 4px rgb(41, 41, 41);
+}
+
+.cards-3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+    background-color: palegreen;
+    transition: 
+    box-shadow 0.5s,
+    transform 0.5s,
+    background-color 0.5s;
+}
+
+.cards-3:hover a {
+    box-shadow: 4px 4px 4px black;
+    transform: translateY(-4px);
+    background-color: rgb(134, 255, 134);
+}
