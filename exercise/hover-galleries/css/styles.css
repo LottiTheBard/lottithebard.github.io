@@ -57,9 +57,9 @@ h1 {
     box-shadow: 4px 4px 4px rgb(41, 41, 41);
     transform: translateY(-8px);
     transition: 
-    visibility 0.5s,
-    opacity 0.5s,
-    transform 0.5s;
+        visibility 0.5s,
+        opacity 0.5s,
+        transform 0.5s;
 }
 
 .gallery-content {
@@ -112,9 +112,9 @@ h1 {
     border-radius: 24px;
     background-color: palegreen;
     transition: 
-    box-shadow 0.5s,
-    transform 0.5s,
-    background-color 0.5s;
+        box-shadow 0.5s,
+        transform 0.5s,
+        background-color 0.5s;
 }
 
 .cards-3:hover a {
