@@ -28,7 +28,7 @@ body {
     font-size: 23px;
 }
 #hero {
-    background-image: url(../images/pexels-rdne-7978810.jpg);
+    background-image: url(../images/mix-grill-7414547_1920-2.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -46,7 +46,9 @@ body {
     font-size: 36px;
     padding: 24px;
     position: absolute;
-    left: 35%;
+    top: 15%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.466)
 }
 #hero .cta-button {
     background-color: #4155a3;
@@ -58,8 +60,8 @@ body {
     font-family: "arsenica-variable", sans-serif;
     font-variation-settings: "opsz" 100, "wght" 500;
     position: absolute;
-    bottom: 25%;
-    left: 48%;
+    bottom: 15%;
+    left: 30%;
     font-size: 24px;
 }
 #footer {
