@@ -292,6 +292,12 @@ body {
         font-size: 15px;
         left: 35%;
     }
+    #menu h1 {
+        font-size: 24px;
+    }
+    #menu p {
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 555px) {
     .side-by-side .text-container .cta-button {
@@ -337,6 +343,12 @@ body {
         bottom: 50%;
         
     }
+    #menu h1 {
+        font-size: 24px;
+    }
+    #menu p {
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 500px) {
     .side-by-side .text-container .cta-button {
@@ -354,6 +366,12 @@ body {
         font-size: 10px;
     }
     .side-by-side .text-container h3 {
+        font-size: 12px;
+    }
+    #menu h1 {
+        font-size: 24px;
+    }
+    #menu p {
         font-size: 12px;
     }
 }
