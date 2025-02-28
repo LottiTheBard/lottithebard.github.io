@@ -48,7 +48,7 @@ body {
     position: absolute;
     top: 15%;
     left: 10%;
-    background-color: rgba(0, 0, 0, 0.466)
+    background-color: rgba(0, 0, 0, 0.466);
 }
 #hero .cta-button {
     background-color: #4155a3;
@@ -92,8 +92,8 @@ body {
 }
 .cta-button {
     transition: 
-    transform 0.5s,
-    box-shadow 0.5s;
+        transform 0.5s,
+        box-shadow 0.5s;
 }
 .cta-button:active {
     transform: translateY(4px);
@@ -172,8 +172,8 @@ body {
     font-variation-settings: "opsz" 100, "wght" 400;
     margin-bottom: 12px;
     transition: 
-    transform 0.5s,
-    box-shadow 0.5s;
+        transform 0.5s,
+        box-shadow 0.5s;
 }
 .side-by-side .text-container .cta-button:hover {
     transform: translateY(-4px);
