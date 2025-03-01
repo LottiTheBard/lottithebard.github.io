@@ -130,16 +130,28 @@ body {
     font-variation-settings: "opsz" 100, "wght" 400;
 }
 .side-by-side .text-container p {
-    font-size: 15px;
+    font-size: 24px;
     color: #c8c9cc;
     font-family: "arsenica-variable", sans-serif;
     font-variation-settings: "opsz" 100, "wght" 400;
 }
+.side-by-side .text-container #details {
+    font-size: 16px;
+    margin-right: 100px;
+}
 #menu {
-    margin-top: 0px;
-    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 48px 0px;
     border: 10px solid #ffcf67;
     background-color: #eee7dc;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 24px;
+}
+#menu #app {
+    margin-bottom: 40px;
 }
 #menu h1 {
     color: #4155a3;
@@ -195,7 +207,10 @@ body {
     .side-by-side .text-container p {
         font-size: 12px;
     }
-    .side-by-side .text-container h4 {
+    .side-by-side .text-container #details {
+        font-size: 12px;
+    }
+    .side-by-side .text-container #details {
         font-size: 24px;
     }
     .side-by-side .text-container h3 {
@@ -212,6 +227,9 @@ body {
     }
     .side-by-side .text-container p {
         font-size: 10px;
+    }
+    .side-by-side .text-container #details {
+        font-size: 24px;
     }
     .side-by-side .text-container h4 {
         font-size: 16px;
@@ -232,6 +250,9 @@ body {
     .side-by-side .text-container p {
         font-size: 8px;
     }
+    .side-by-side .text-container #details {
+        font-size: 12px;
+    }
     .side-by-side .text-container h4 {
         font-size: 12px;
     }
@@ -246,9 +267,14 @@ body {
     }
     #navbar #locations {
         margin: 20px;
+        flex-direction: column;
     }
     #footer {
         flex-direction: column;
+    }
+    #navbar .cta-button {
+        padding: 12px;
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 600px) and (min-width: 556px) {
@@ -262,6 +288,9 @@ body {
     }
     .side-by-side .text-container p {
         font-size: 8px;
+    }
+    .side-by-side .text-container #details {
+        font-size: 12px;
     }
     .side-by-side .text-container h4 {
         font-size: 12px;
@@ -310,6 +339,9 @@ body {
     }
     .side-by-side .text-container p {
         font-size: 8px;
+    }
+    .side-by-side .text-container #details {
+        font-size: 12px;
     }
     .side-by-side .text-container h4 {
         font-size: 12px;
@@ -361,6 +393,9 @@ body {
     }
     .side-by-side .text-container p {
         font-size: 8px;
+    }
+    .side-by-side .text-container #details {
+        font-size: 10px;
     }
     .side-by-side .text-container h4 {
         font-size: 10px;
